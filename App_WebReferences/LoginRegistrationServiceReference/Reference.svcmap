@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2804a11d-b2a2-480d-b87d-d79cba372782" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49884/LoginService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LoginService.xsd" MetadataType="Schema" ID="8c12975b-f4a5-44f5-9e51-820a295d17f0" SourceId="1" SourceUrl="http://localhost:49884/LoginService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LoginService.wsdl" MetadataType="Wsdl" ID="d302e911-ceda-4665-b80d-bd4686628bbd" SourceId="1" SourceUrl="http://localhost:49884/LoginService.svc?wsdl" />
+    <MetadataFile FileName="LoginService1.xsd" MetadataType="Schema" ID="c5f2e302-2d8a-4942-ad5c-03a2408733da" SourceId="1" SourceUrl="http://localhost:49884/LoginService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LoginService.disco" MetadataType="Disco" ID="03f9da67-e43e-47e9-94cc-7339483cdd2c" SourceId="1" SourceUrl="http://localhost:49884/LoginService.svc?disco" />
+    <MetadataFile FileName="LoginService2.xsd" MetadataType="Schema" ID="36e2b372-e93a-437a-b872-8f73ca5244a3" SourceId="1" SourceUrl="http://localhost:49884/LoginService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
